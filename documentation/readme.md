@@ -25,10 +25,14 @@ This section can help the people who visit this repository understand what this 
 
 -**videos:**
 
-A run through video for better visualization and understanding of the project.
+A run-through video for better visualization and understanding of the project.
+
+## 3. Dataset
+
+The dataset for this REACH is generated through an application named RoboFlow, where we have annotated images, done all the pre-processing steps and divided the data into a training set, validation set and test set.
 
 
-## 3. System Entry Point
+## 4. System Entry Point
 
 Main script: src/main.py
 
@@ -43,11 +47,11 @@ This file consists our intended version of REACH where the camera opens up and d
 (src/version2 contains the other version through which the user can get the detected objects output with a video input of objects.)
 
 
-## 4. Video Demonstration
+## 5. Video Demonstration
 
 We explained in detail how the model and system function after deployment in the video demonstration. One can see where the images and feedbacks are getting saved.
 
-## 5. Deployment Strategy
+## 6. Deployment Strategy
 
 - Initially, We deployed our model to *streamlit* to run it locally and then we pushed that to *docker* platform and created images and containers to run them. We are running it on port 8501.
 
@@ -72,12 +76,12 @@ To create the docker image and run the container below is the code.
 
 
 
-## 6. Project Documentation
+## 7. Project Documentation
 AI System Project Proposal: documentation/AI System project proposal template
 
 Project Report : documentation/Project report
 
-## 7. Version Control and Team Collaboration
+## 8. Version Control and Team Collaboration
 
  
 
@@ -99,19 +103,19 @@ Project Report : documentation/Project report
 
 
 
-## 8. About Grafana
-We haven't used prometheus and grafana instead we have used a tool named wandb.ai to measure our system metrics.
+## 9. About Grafana
+We haven't used prometheus and grafana instead we have used a tool named wandb.ai to measure our system metrics this tool gave us all the system metrics incuding CPU, GPU, memory utilization, CPU threads and temperatures.  
 
-## 9. Issues
+## 10.  If Not Applicable
 
-You might face issues deploying main version of REACH which uses webcam. Do remember that docker can't detect local webcam so run it through streamlit and use version2 for docker implementations.
+You might face issues deploying the main version of REACH which uses a webcam. Do remember that docker can't detect local webcam so run it through streamlit and use version2 for docker implementation.
 
 
-## 10. Contributing
+## 11. Contributing
 
 We welcome pull requests. Before making any significant modifications, please start an issue to discuss your preferences.
 
-## 11.Acknowledgements
+## 12.Acknowledgements
 
 We would like to thank our professor **Dr. Ramirez** for making this possible in limited time. We got help whenever required and able to finish up all the tasks in time.
 
